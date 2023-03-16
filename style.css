@@ -11,6 +11,8 @@ header{margin-bottom: 40px;}
 h1{
     margin-bottom: 3%;
     color: rgb(220, 37, 119);
+    font-family: 'Fredoka One', cursive;
+
     }
 
     header,h1{
@@ -50,7 +52,9 @@ margin-right: 4%; }
 a{text-decoration: none;
     color:rgb(127, 200, 255);}
 
-    .nomi{padding: 4%;}
+    .nomi{padding: 4%;
+        font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 
 
 
