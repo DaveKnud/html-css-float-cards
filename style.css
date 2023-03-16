@@ -9,7 +9,7 @@ box-sizing: border-box;}
 header{margin-bottom: 40px;}
 
 h1{
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     color: rgb(220, 37, 119);
     }
 
@@ -43,7 +43,15 @@ background-color: aquamarine;
 border: 1px solid black;}  */
 
 img{
- width: 90px; height: auto; }
+ width: 90px; height: auto;
+float: left;
+margin-right: 4%; }
+
+a{text-decoration: none;
+    color:rgb(127, 200, 255);}
+
+    .nomi{padding: 4%;}
+
 
 
 
