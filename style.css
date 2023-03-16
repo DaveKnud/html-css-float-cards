@@ -1,0 +1,50 @@
+*{margin:0;
+padding: 0;
+box-sizing: border-box;}
+
+
+.contenitore{width: 70%;
+            margin: 20px auto;}
+
+header{margin-bottom: 40px;}
+
+h1{
+    margin-bottom: 5%;
+    color: rgb(220, 37, 119);
+    }
+
+    header,h1{
+        text-align: center;
+        padding: 7px;
+    }
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.colonna{
+    width:calc(94%/3);
+    float: left;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+    margin-left: 2%;
+}
+
+/* Regole Debug
+
+.row1{border: solid 10px rgb(122, 47, 47);}
+
+
+.colonna{
+background-color: aquamarine;
+border: 1px solid black;}  */
+
+img{
+ width: 90px; height: auto; }
+
+
+
+
