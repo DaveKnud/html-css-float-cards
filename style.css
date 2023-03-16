@@ -1,62 +1,61 @@
+
 *{margin:0;
-padding: 0;
-box-sizing: border-box;}
-
-
-.contenitore{width: 70%;
-            margin: 20px auto;}
-
-header{margin-bottom: 40px;}
-
-h1{
-    margin-bottom: 3%;
-    color: rgb(220, 37, 119);
-    font-family: 'Fredoka One', cursive;
-
+    padding: 0;
+    box-sizing: border-box;}
+    
+    
+    .contenitore{width: 70%;
+                margin: 20px auto;}
+    
+    header{margin-bottom: 40px;}
+    
+    h1{
+        margin-bottom: 3%;
+        color: rgb(220, 37, 119);
+        font-family: 'Fredoka One', cursive;
+    
+        }
+    
+        header,h1{
+            text-align: center;
+            padding: 7px;
+        }
+    
+    .row::after {
+        content: "";
+        display: table;
+        clear: both;
     }
-
-    header,h1{
-        text-align: center;
-        padding: 7px;
+    
+    .colonna{
+        width:calc(94%/3);
+        float: left;
+        margin-bottom: 20px;
+        background-color: black;
+        color: white;
+        margin-left: 2%;
     }
-
-.row::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.colonna{
-    width:calc(94%/3);
+    
+    /* Regole Debug
+    .row1{border: solid 10px rgb(122, 47, 47);}
+    .colonna{
+    background-color: aquamarine;
+    border: 1px solid black;}  */
+    
+    img{
+     width: 90px; height: auto;
     float: left;
-    margin-bottom: 20px;
-    background-color: black;
-    color: white;
-    margin-left: 2%;
-}
-
-/* Regole Debug
-
-.row1{border: solid 10px rgb(122, 47, 47);}
-
-
-.colonna{
-background-color: aquamarine;
-border: 1px solid black;}  */
-
-img{
- width: 90px; height: auto;
-float: left;
-margin-right: 4%; }
-
-a{text-decoration: none;
-    color:rgb(127, 200, 255);}
-
-    .nomi{padding: 4%;
-        font-size: 14px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
-
-
+    margin-right: 4%; }
+    
+    a{text-decoration: none;
+        color:rgb(127, 200, 255);}
+    
+        .nomi{padding: 4%;
+            font-size: 14px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+    
+h3{margin-bottom: 4px;}
+p{margin-bottom: 3px;}
 
 
 
